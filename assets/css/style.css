@@ -1,0 +1,237 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body{
+	overflow-x :  hidden
+}
+.navbar-brand{
+	font-family: 'Manrope', sans-serif;
+	font-size: 12px;
+	font-weight: 500;
+	text-align: center;
+	
+	
+}
+
+.navbar{
+	background-color: #010101;
+	height: 59px;
+	position: relative;
+}
+
+#nav-font-home, #nav-font-tour,#nav-font-service,#nav-font-about,#nav-font-contact{
+	text-transform: capitalize;
+	text-align: center;
+	color: white;
+	font-family: 'Manrope', sans-serif;
+	size: 16px;
+	font-weight: 500;
+	vertical-align: middle;
+	padding-left: 25px;
+	padding-right: 25px;
+	
+}
+.container-fluid{
+	width: fit-content;
+	overflow: hidden;
+	
+}
+.nav-logo{
+	top: 10px;
+	position: absolute;
+}
+.navbar-brand{
+	position: absolute;
+	bottom: 6px;
+	text-transform: capitalize;
+	text-align: center;
+	color: white;
+	font-family: 'Manrope', sans-serif;
+	size: 16px;
+}
+
+/* .nav-link:hover{
+	background-color: gray;
+	
+} */
+.img-home{
+	width: 800px;
+	margin-right: 0;
+	padding-right: 0;
+}
+.form-control{
+	margin-left: 20px;
+	margin-right: 20px;
+	
+}
+#form1{
+	width: 250px;
+}
+.sample{
+	padding: 80px;
+}
+
+.one img{
+	object-fit: cover;
+	overflow: hidden;
+}
+.img-set-1{
+	background-color: #FEE3E2;
+	padding: 30px;
+	border-radius: 50%;
+	margin-top: 20px;
+	padding-left: 20px;
+	
+}
+.two .navbar {
+	height: 70px;
+}
+.about{
+	float: right;
+	padding-left: 200px;
+	text-align-last: right;
+	text-transform: capitalize;
+}
+.about h2{
+	font-family: 'Manrope', sans-serif;
+	size: 16px;
+	font-weight: 500;
+	text-decoration: underline solid red;
+}
+.popular-rides{
+	margin-top: 100px;
+}
+.img-parent{
+	position: relative;
+}
+.img-set-2{
+	position: absolute;
+	
+}
+.img-set-3{
+	position: absolute;
+	top:30px;
+	left: 100px;
+}
+.ride-heading{
+	font-family: 'Manrope', sans-serif;
+	size: 16px;
+	font-weight: 500;
+	text-decoration: underline solid red;
+}
+.overlay-text{
+	margin-top: -60%;
+	text-transform: capitalize;
+	text-align: center;
+	color: white;
+	font-family: 'Manrope', sans-serif;
+	size: 16px;
+	font-weight: 500;
+	
+}
+.card{
+	
+	height: 235px;
+}
+.card img{
+	
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.overlay-text h5 {
+	text-decoration: underline;
+}
+.Testimonials h2{
+	font-family: 'Manrope', sans-serif;
+	size: 16px;
+	font-weight: 500;
+	text-decoration: underline solid red;
+	float: right;
+}
+.Testimonials{
+	margin-top: 70px;
+	object-fit: cover;
+	/* overflow: hidden; */
+	position: relative;
+}
+.ride-heading{
+	font-family: 'Manrope', sans-serif;
+	text-transform: capitalize;
+}
+
+.img-set-5{
+	position: absolute;
+	bottom: 150px;
+	left: 30px;
+}
+.test-para{
+	position: absolute;
+	bottom: 150px;
+	left: 300px;
+	bottom: 45px;
+	width: 425px;
+	background: linear-gradient(to top, #A6011399 0%, red 100%);
+	opacity: 100%;
+	padding: 50px;
+}
+.europe{
+	position: absolute;
+	left: 400px;
+	top: 30px;
+	font-size: 110px;
+	font-family: 'PT Serif', serif;
+	color: #C4C4C4;
+}
+.client h2{
+	font-family: 'Manrope', sans-serif;
+	size: 16px;
+	font-weight: 500;
+	text-decoration: underline solid red;
+	text-transform: capitalize;
+}
+.client{
+	object-fit: cover;
+	overflow: hidden;
+}
+.footer{
+	background-color: black;
+}
+.raj-img{
+	filter: invert(50%);
+	margin-top: 70px;
+	width: 200px;
+	
+}
+.raj-footer p{
+	color: white;
+}
+.raj-para{
+	text-transform: capitalize;
+	text-align: center;
+	color: white;
+	font-family: 'Manrope', sans-serif;
+	size: 10px;
+	margin-left: 2px;
+}
+.nav-footer {
+	margin-left: 70px;
+}
+.list{
+	display: flex;
+	justify-content: center;
+}
+.list li{
+	color: white;
+}
+.Copyright{
+	vertical-align: bottom;
+}
+.list-logo li{
+	display: inline;
+	float: right;
+	margin-left: 10px;
+	cursor: pointer;
+}
